@@ -189,7 +189,7 @@ Returns an Object
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
 
-![uml](asset/uml2.PNG)
+![uml](./asset/uml2.png)
 
  5 am | Today 
 
