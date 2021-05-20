@@ -1,22 +1,48 @@
 # 
-401 class 03 lab
-# LAB - 03
-## basic-api-server
+401 class 04 lab
+# LAB - 04
+## api-server
 ### Author: As-har Abuhelweh
 
-* [deployment for main branch ](https://ashar-basic-api-server.herokuapp.com/) .
-* [submission PR](https://github.com/asharabuhelweh/basic-api-server/pull/3) .
-* [tests report](https://github.com/asharabuhelweh/basic-api-server/actions) 
+* [deployment for main branch ](https://ashar-api-server.herokuapp.com/) .
+* [submission PR](https://github.com/asharabuhelweh/api-server/pull/2) .
+* [tests report](https://github.com/asharabuhelweh/api-server/actions) 
  
 ### Setup
 
 #### `.env` requirements
 
-- `PORT` - 4444
+- `PORT` - 5000
 
 #### Running the app
 
 - `npm start`
+  
+   **installation** 
+
+Clone the repo from gitHub, by run the following command "git clone -repo-".
+Run "npm init -y".
+Run "npm i".
+Create .env file and PORT inside it.
+How do I test the app or library?
+
+Just run "npm test"
+For Applications:
+
+  **run the app**
+Run "npm start" or "node index.js"
+How do I set up the app?
+Clone the repo from gitHub, by run the following command "git clone -repo-".
+
+Run "npm init -y".
+
+Run "npm i".
+
+Create .env file and PORT inside it.
+
+Then run "npm start"
+
+
 - Endpoint: `/`
   - Returns message
 
@@ -101,7 +127,7 @@
         "id": "3ec7d422-263b-4b21-bd17-f19fc7ca8700",
         "data": {
             "name": "pizza",
-            "sourse": "italy"
+            "source": "italy"
         }
     }
   ```
@@ -113,7 +139,7 @@
     "id": "3ec7d422-263b-4b21-bd17-f19fc7ca8700",
     "data": {
         "name": "pizza",
-        "sourse": "italy"
+        "source": "italy"
     }
   }
 
@@ -163,9 +189,9 @@ Returns an Object
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
 
-![uml](asset/uml.PNG)
+![uml](asset/uml2.PNG)
 
- 11 PM | Today 
+ 5 am | Today 
 
 
 
